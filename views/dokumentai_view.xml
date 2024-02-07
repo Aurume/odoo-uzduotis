@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="dokumentai_tree_view">-->
+        <field name="name">Document tree view</field>-->
+        <field name="model">dokumentu_tvarkymas.dokumentai</field>-->
+        <field name="arch" type="xml">
+           <tree string="Document Tree">
+                    <field name="name"/>
+                    <field name="description"/>
+                    <field name="company"/>
+
+           </tree>
+        </field>
+    </record>
+
+</odoo>
